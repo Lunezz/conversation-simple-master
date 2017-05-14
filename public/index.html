@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <base href="/">
+  <title>SmartPanty</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, ">
+  <!--metatags-->
+  <meta name="Description" content="Comunidad mujer">
+  <meta name="Keywords" content="sexualidad, embarazo, mujer">
+  <!--<link rel="stylesheet" href="css/app.css">-->
+  <link rel="stylesheet" type="text/css" href="css/container.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <!--header-->
+    <input type="checkbox" id="btn-menu">
+    <label for="btn-menu"><img class="logotipo" src="/img/panty.svg"></label>
+    <nav class="menu">
+      <ul>
+        
+          <li><a href="placer.html">Placer</a>
+                <!--  <ul>
+                <li><a href="">Relaciones Sexuales</a></li>
+                <li><a href="">Practicas Sexuales</a></li>
+                </ul>-->
+          </li>
+          <li><a href="salud.html">Salud</a>
+           <!--  <ul>
+                <li><a href="">Menstruación</a></li>
+                <li><a href="">Anticonceptivos</a></li>
+                <li><a href="">Embarazo</a></li>
+                <li><a href="">Aborto</a></li>
+                <li><a href="">ETS</a></li>
+                </ul>-->
+          </li>
+          <li><a href="sexo.html">Género</a>
+            <!-- <ul>
+                <li><a href="">Identidades</a></li>
+                <li><a href="">Violencia</a></li>
+                <li><a href="">Feminismo</a></li>
+            </ul>-->
+          </li>
+
+          <li><a href="">Expertos</a></li>
+          <li><a href="">Comunidad</a></li>
+          <li><a href="">Opinión</a></li>
+          <li><a href="login.html"><button>Login</button></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="nosotros">
+    <img src="img/logo-smart.svg" alt="">
+  </div>
+
+
+
+<div class="frase">
+  <div class="frases1"><p>VAMOS A PLATICAR</p>
+    <hr>
+  </div>
+  <div class="frases2">
+    <ul>
+      <li>Sin regaños</li>
+      <li>Sin condescendencia</li>
+      <li>Sin violencia</li>
+      <li>Sin juzgarte</li>
+      <li>Sin ofender</li>
+      <li>Sin "Te lo dije"</li>
+      <li>Sin sermones</li>
+      <li>Sin etiquetas</li>
+    </ul>
+  </div>
+    
+  </div>
+
+  
+
+<div clas="uno">
+  <div class="nombre">
+  <h1>Hola soy Selena</h1>
+  </div>
+  <div class="chat">  
+    <div id="scrollingChat"></div>
+
+    <input id="textInput" class="input responsive-column"
+        placeholder="escribe aqui" type="text"
+        onkeydown="ConversationPanel.inputKeyDown(event, this)">
+  </div>
+</div>
+
+  <div class="contenedor">
+    <div class="item-contenedor">
+      <img src="img/especialista.svg" alt="">
+      <h2>¿Eres especialista?</h2>
+     <button>Registrate ></button>
+    </div>
+    
+    <div class="item-contenedor">
+       <img src="img/foro.svg" alt="">
+       <h2>Foros</h2>
+       <a href="foro.html"><button>Ver ></button></a>
+    </div>
+  </div>
+
+  <footer>
+    <ul>
+      <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+      <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+    </ul>
+    <p>contacto@smartypanty.com</p>
+    <p>Derechos Reservados SmartyPanty TR. 2017</p>
+  </footer>  
+  
+
+<!-- No TOCAR SECCIÓN Y SCRIPTS QUE HACEN FUNCIONAR EL CHATBOX -->
+    <div id="payload-column" class="fixed-column content-column hide" style="display:none;">
+      <div id="payload-initial-message">
+        Type something to see the output
+      </div>
+      <div id="payload-request" class="payload"></div>
+      <div id="payload-response" class="payload"></div>
+    </div>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/conversation.js"></script>
+  <script src="js/payload.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/scroll.js"></script>
+<!--   NO TOCAR FINALIZA-->
+
+</body>
+
+</html>
